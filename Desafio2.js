@@ -9,7 +9,7 @@ function contaDeVitorias(vitorias, derrotas){
 function classificacao(qtdVitorias){
     let categoria;
   
-    if(categoria < 10){
+    if(qtdVitorias < 10){
       categoria = "Ferro"
     }else if(qtdVitorias >= 11 && qtdVitorias <= 20){
       categoria = "Bronze"
@@ -30,4 +30,4 @@ function classificacao(qtdVitorias){
   }
   
   
-  contaDeVitorias()
+    contaDeVitorias()
