@@ -6,8 +6,8 @@ function contaDeVitorias(vitorias, derrotas){
   
   }
   
-  function classificacao(qtdVitorias){
-      let categoria;
+function classificacao(qtdVitorias){
+    let categoria;
   
     if(categoria < 10){
       categoria = "Ferro"
