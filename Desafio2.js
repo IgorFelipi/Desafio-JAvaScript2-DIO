@@ -1,11 +1,14 @@
+//função para determinar a quantidade de viórias
 function contaDeVitorias(vitorias, derrotas){
+//calculo das vitorias por derrotas recebidas por parametro
     let saldoDeVitorias = vitorias - derrotas;
     let nivel = classificacao(saldoDeVitorias)
   
     console.log(`O Herói tem um saldo de ${saldoDeVitorias} está no nivel ${nivel} `)
   
   }
-  
+ 
+// Divisão em 2 funções para boa prática onde a mesma classifica o nivel do herói  
 function classificacao(qtdVitorias){
     let categoria;
   
