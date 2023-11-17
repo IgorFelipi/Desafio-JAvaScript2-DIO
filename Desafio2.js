@@ -14,7 +14,7 @@ function classificacao(qtdVitorias){
   const limites = [10, 20, 50, 80, 90, 100];
    const categorias = ["Ferro", "Bronze", "Prata", "Ouro", "Diamante", "Lendário", "Imortal"];
   
-   // Façando um for para contar os indices para encaixar na categoria desejada
+   // Implementando um FOR para contar os indices e encaixar na categoria desejada
    for(let i = 0; i < limites.length; i++){
     if(qtdVitorias <= limites[i]){
       return categorias[i];
